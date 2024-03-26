@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    position: relative; 
+}
+
+
+
+.left, .main {
+    position: absolute;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border: 2px solid #fff;
+    font-family: Arial, sans-serif;
+    
+}
+
+
+.left {
+    top: 50%;
+    left: 13%;
+    transform: translate(-20%, -50%);
+    width: 30%;
+   
+}
+
+.main {
+    top: 50%;
+    left: 65%;
+   
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+.profile-picture{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-right: 15%;
+    
+}
+h1{
+    font-size:2.5em;
+    text-align:left;
+    font-family: 'Varela Round', sans-serif;
+    text-transform:uppercase;
+    line-height:1em;
+    padding-top:55px;
+    padding-left: 7.5% ;
+    color: rgb(101, 112, 123); 
+}
+
+.personal-info
+{
+    margin-top: 150px;
+}
+
+.list-titles {
+   list-style-type: none;
+    float:left;
+    text-align:left;
+    font-weight:600;
+    width:30%;
+    
+  }
+  .list-content{
+    list-style-type: none;
+    float:left;
+    width:50%;
+    text-align:left;
+    font-weight:300;
+    color: rgb(101, 112, 123); 
+  }
+  li{
+    padding-bottom: 10px;
+  }
+  a
+  {
+    text-decoration: none;
+    color: rgb(42, 148, 42);
+  }
+  a:link a:visited{
+    color: rgb(42, 148, 42);
+  }
+  a:hover{
+    color: darkolivegreen;
+    text-decoration: underline;
+  }
+ /* LEFT SIDE OF THE PAGE */
+
+
+.main-content{
+  margin-top: 5px;
+  margin-left: 30px;
+}
+h3{
+  color: rgb(77, 229, 77);
+  text-align:left;
+  text-transform:uppercase;
+  font-size:3.2em;
+  margin-bottom:20px;
+  font-weight:400;
+}
+.first-wrapper{
+  margin-left: 33.5px;
+  margin-top: 33.5px;
+
+  width:30%;
+    float:left;
+    text-align:left;
+    padding-right:5%;
+    margin-bottom:20px;
+  
+}
+.first-wrapper-right{
+
+  margin-top: 33.5px;
+    width:40%;
+    float:left;
+    text-align:left;
+    padding-right:5%;
+    margin-bottom:20px;
+    
+}
+.experience-title{
+  color: white;
+}
+.company-descritpion{
+  color: #465EA6;
+}
+.experience-data{
+color: #465EA6;
+}
+/* RIGHT SIDE OF THE PAGE */
