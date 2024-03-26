@@ -54,7 +54,7 @@ window.addEventListener('resize', function()
     init();
 });
 
-function Circle(x, y, dx, dy, radius) { //tova e obekt zashtoto zapochva s glavna bykva
+function Circle(x, y, dx, dy, radius) { 
     this.x = x;
     this.y = y;
     this.dx = dx;
@@ -108,14 +108,14 @@ function init()
 {
   circleArray = [];
 
-    for (var i = 0; i < 1000; i++) { // цикълът се повтаря 1000 пъти демек създава 100 кръга
-        var radius = Math.random() * 3 + 1; // понеже Math,random е число между 0 и 1 максималната стойност която може да стане за радиус е 4
+    for (var i = 0; i < 1000; i++) { 
+        var radius = Math.random() * 3 + 1; 
         var x = Math.random() * (innerWidth - radius * 2) + radius ;
         var y = Math.random() * (innerHeight - radius * 2) + radius;
-        var dx = (Math.random() - 0.5) * 2; //скорост на кръга наляво , надясно
-        var dy = (Math.random() - 0.5) * 2; //скорост на крага нагоре , надолу
+        var dx = (Math.random() - 0.5) * 2; 
+        var dy = (Math.random() - 0.5) * 2; 
         
-        circleArray.push(new Circle(x, y, dx, dy, radius)); //създава нов кръг
+        circleArray.push(new Circle(x, y, dx, dy, radius)); 
     }
 }
 
